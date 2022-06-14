@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav'
-
+import About from './components/About'
+import ContactForm from './components/Contact';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -10,9 +11,9 @@ function App() {
   const [categories] = useState([
     {
       name: 'Portfolio',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
+      description: 'Projects that I have created or colaborated on.',
     },
-    { name: 'Resume', description: 'Delicious delicacies' },
+    { name: 'Resume', description: 'Link to Resume' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -29,14 +30,15 @@ function App() {
         setContactSelected={setContactSelected}
       ></Nav>
       <main>
-        {/* {!contactSelected ? (
+        {!contactSelected ? (
           <>
-            <Portfolio currentCategory={currentCategory}></Portfolio>
             <About></About>
+            <Portfolio currentCategory={currentCategory}></Portfolio>
+
           </>
         ) : (
           <ContactForm></ContactForm>
-        )} */}
+        )}
       </main>
     </div>
   );
