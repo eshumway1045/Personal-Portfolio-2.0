@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ccf05723.css",
+    "main.js": "/static/js/main.568db421.js",
+    "static/js/787.bf8cdb49.chunk.js": "/static/js/787.bf8cdb49.chunk.js",
+    "static/media/budgetek.jpg": "/static/media/budgetek.3983ca9a8c3b27cc8921.jpg",
+    "static/media/personal.jpg": "/static/media/personal.8e04c76838607b53c80a.jpg",
+    "static/media/runBuddy.jpg": "/static/media/runBuddy.000e1b5ff4f0b912c97f.jpg",
+    "static/media/weather command.png": "/static/media/weather command.2bb8cbaa2d79c9eecaed.png",
+    "static/media/film roll.jpg": "/static/media/film roll.a35786ac0e27d29e750c.jpg",
+    "static/media/personalPlanner.png": "/static/media/personalPlanner.6503357dfa3c169e1e49.png",
+    "static/media/timedQuiz.png": "/static/media/timedQuiz.5860e3ecdce7d2e4f70b.png",
+    "static/media/Resume.docx.pdf": "/static/media/Resume.docx.20b2526c1bbe7b61869e.pdf",
+    "static/media/github.jpg": "/static/media/github.aa76f0cda9f5cf4cad2b.jpg",
+    "index.html": "/index.html",
+    "main.ccf05723.css.map": "/static/css/main.ccf05723.css.map",
+    "main.568db421.js.map": "/static/js/main.568db421.js.map",
+    "787.bf8cdb49.chunk.js.map": "/static/js/787.bf8cdb49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccf05723.css",
+    "static/js/main.568db421.js"
+  ]
+}
