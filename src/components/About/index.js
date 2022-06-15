@@ -3,17 +3,15 @@ import React from 'react';
 function About() {
   return (
     <section className="my-5 modalContainer">
-      <h1 id="about">Who am I?</h1>
-      <img src={require('../../assets/images/personal.jpg')} className="my-2" style={{ width: "50%" }} alt="Profile" />
+      <h1 id="about" className='modalTitle'>Who am I?</h1>
+      <img src={require('../../assets/images/personal.jpg')} className="card profileImg" style={{ width: "50%" }} alt="Profile" />
       <div className="my-2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+          I currently have 5 years experience in Retail and customer satisfaction.  I am passionate about coding and
+          the things that it can bring to live.  I have really come to love seeing the way code can change and shape websites,
+          and the user experience. I continue to love learning how coding is continually changing and the ways that what another 
+          coder accomplish makes all of our lives easier,  as well as looking for ways to be the one who changes how things are 
+          done.  
         </p>
       </div>
     </section>

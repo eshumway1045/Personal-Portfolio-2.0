@@ -22,8 +22,8 @@ main {
   --secondary: #f3a847;
   --tertiary: #b12704;
   --light: #fafafa;
-  --dark: #000000;
-  --darker: #111111;
+  --dark: #00abf0;
+  --darker: #37c6ff;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -243,7 +243,6 @@ textarea {
 
 .card {
   width: 25%;
-  text-align: center;
 }
 
 .img-thumbnail {
@@ -274,16 +273,17 @@ textarea {
 }
 
 .modalTitle {
-  font-size: 18px;
+  
   font-weight: 600;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 button {
-  background: var(--primary);
+  background: var(--light);
   border: 0;
   border-radius: 5px;
-  color: #fff;
+  color: var(--dark);
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -293,7 +293,7 @@ button {
 
 a {
   border-radius: 5px;
-  color: var(--primary);
+  color: var(--light);
   font-weight: 600;
   padding: 2px 4px;
   margin-left: -2px;
@@ -302,4 +302,11 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.profileImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }

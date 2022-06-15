@@ -20,12 +20,44 @@ const ProjectList = ({ category }) => {
             alt: 'Roll of movie film',
             github: 'https://github.com/eshumway1045/Group-Project-1'
         },
+        {
+            name: 'Simple Planner',
+            affinities: 'Project: HTML, CSS, jQuery, JavaScript',
+            link: 'https://eshumway1045.github.io/simple-planner/',
+            image: "personalPlanner.png",
+            alt: 'screen shot of personal planner page',
+            github: 'https://github.com/eshumway1045/simple-planner'
+        },
+        {
+            name: 'Weather Command',
+            affinities: 'Project: HTML, CSS, Bulma, jQuery, JavaScript, MovieDB API, and Rapid API',
+            link: 'https://eshumway1045.github.io/weather-command/',
+            image: "weather command.png",
+            alt: 'Screen shot of weather command application',
+            github: 'https://github.com/eshumway1045/weather-command.git'
+        },
+        {
+            name: 'Timed Quiz',
+            affinities: 'Project: HTML, CSS, jQuery, JavaScript',
+            link: 'https://eshumway1045.github.io/Timed-Quiz/',
+            image: "timedQuiz.png",
+            alt: 'image of started quiz',
+            github: 'https://github.com/eshumway1045/Timed-Quiz'
+        },
+        {
+            name: 'Run Buddy',
+            affinities: 'Project: HTML, CSS',
+            link: 'https://eshumway1045.github.io/run-buddy/',
+            image: "runBuddy.jpg",
+            alt: 'run buddy header',
+            github: 'https://github.com/eshumway1045/run-buddy'
+        },
     ]);
 
 
 
 return (
-    <div>
+    <div className='grid'>
         {portfolioPane.map((pane) => (
             <article className="portfolio-link modalContainer" key={pane.name}>
                 <div className="work-title">
