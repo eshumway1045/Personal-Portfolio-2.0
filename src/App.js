@@ -5,7 +5,7 @@ import About from './components/About'
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-
+import Footer from './components/Footer';
 
 function App() {
 
@@ -46,6 +46,7 @@ function App() {
           <About></About>
         }
       </main>
+      <Footer></Footer>
     </div>
   );
 }

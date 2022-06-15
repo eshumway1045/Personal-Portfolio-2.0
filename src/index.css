@@ -17,6 +17,7 @@ main {
   max-width: 90%;
   padding: 50px 30px;
 }
+
 :root {
   --primary: #8c54ff;
   --secondary: #f3a847;
@@ -103,7 +104,11 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--darker);
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 15px;
 }
 
 header a {
@@ -273,7 +278,7 @@ textarea {
 }
 
 .modalTitle {
-  
+
   font-weight: 600;
   margin-bottom: 25px;
   text-align: center;
@@ -309,4 +314,20 @@ a {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+}
+
+footer {
+  background: var(--darker);
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 50px auto;
+}
+
+footer svg {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  padding: 10px 10px 10px 10px;
 }

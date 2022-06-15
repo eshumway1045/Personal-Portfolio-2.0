@@ -2,8 +2,8 @@ import React from "react";
 
 function Resume() {
     return (
-        <section className="resume">
-            <h2> Proficiencies </h2>
+        <section className="resume modalContainer">
+            <h2 className="modalTitle"> Proficiencies </h2>
             <h3>Front End</h3>
             <p>
                 - Html 5 <br/>
