@@ -21,8 +21,6 @@
     
 * [Questions](#Questions)
 
-![Screenshot 2022-06-16 160502](https://user-images.githubusercontent.com/54603559/174184258-198cd251-5566-427d-a1b7-8b848b0825f5.png)
-
 
     ## Description
     -------------------------------------------------------
@@ -59,3 +57,6 @@
     Please reach out to me with any questions:
 
     GitHub: https://github.com/eshumway1045
+    
+    ![Screenshot 2022-06-16 160502](https://user-images.githubusercontent.com/54603559/174184258-198cd251-5566-427d-a1b7-8b848b0825f5.png)
+
