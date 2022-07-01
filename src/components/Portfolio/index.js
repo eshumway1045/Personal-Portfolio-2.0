@@ -52,6 +52,15 @@ const ProjectList = ({ category }) => {
             alt: 'run buddy header',
             github: 'https://github.com/eshumway1045/run-buddy'
         },
+        {
+            name: 'Everywhere',
+            affinities: 'Project: MongoDB, React, GraphQL, MERN, Tailwind',
+            link: 'https://stark-harbor-20365.herokuapp.com/',
+            image: "everywhere.png",
+            alt: "Homepage of Everywhere",
+            github: "https://github.com/emilypape/everywhere"
+
+        }
     ]);
 
 
