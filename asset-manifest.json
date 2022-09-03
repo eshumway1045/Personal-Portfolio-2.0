@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio-2.0/static/css/main.d9e10ae6.css",
+    "main.css": "/Personal-Portfolio-2.0/static/css/main.38541102.css",
     "main.js": "/Personal-Portfolio-2.0/static/js/main.e024f3b9.js",
     "static/js/787.bf8cdb49.chunk.js": "/Personal-Portfolio-2.0/static/js/787.bf8cdb49.chunk.js",
     "static/media/personal.jpg": "/Personal-Portfolio-2.0/static/media/personal.31d7ed0779573426919c.jpg",
@@ -14,12 +14,12 @@
     "static/media/Resume.docx.pdf": "/Personal-Portfolio-2.0/static/media/Resume.docx.20b2526c1bbe7b61869e.pdf",
     "static/media/github.jpg": "/Personal-Portfolio-2.0/static/media/github.aa76f0cda9f5cf4cad2b.jpg",
     "index.html": "/Personal-Portfolio-2.0/index.html",
-    "main.d9e10ae6.css.map": "/Personal-Portfolio-2.0/static/css/main.d9e10ae6.css.map",
+    "main.38541102.css.map": "/Personal-Portfolio-2.0/static/css/main.38541102.css.map",
     "main.e024f3b9.js.map": "/Personal-Portfolio-2.0/static/js/main.e024f3b9.js.map",
     "787.bf8cdb49.chunk.js.map": "/Personal-Portfolio-2.0/static/js/787.bf8cdb49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9e10ae6.css",
+    "static/css/main.38541102.css",
     "static/js/main.e024f3b9.js"
   ]
 }
