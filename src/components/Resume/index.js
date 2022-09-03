@@ -25,7 +25,7 @@ function Resume() {
                 <br/>
                 <br/>
             </p>
-            <a href={require("../../assets/pdf/Resume.docx.pdf")} download>Click to Download Resume</a>
+            <a href={require("../../assets/pdf/Resume.pdf")} download>Click to Download Resume</a>
 
         </section>
     )
